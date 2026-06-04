@@ -1,9 +1,9 @@
 {
   "bikVersion": "1.0",
   "type": "request",
-  "id": "new-request",
+  "id": "new-request-3",
   "name": "New Request",
-  "method": "POST",
+  "method": "GET",
   "url": "https://example.com/",
   "headers": {},
   "queryParams": {},
