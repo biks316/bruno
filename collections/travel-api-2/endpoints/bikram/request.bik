@@ -1,0 +1,12 @@
+{
+  "bikVersion": "1.0",
+  "type": "request",
+  "id": "bikram",
+  "name": "bikram",
+  "method": "GET",
+  "url": "https://example.com/",
+  "headers": {},
+  "queryParams": {},
+  "body": null,
+  "variables": {}
+}
