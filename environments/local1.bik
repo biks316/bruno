@@ -1,0 +1,7 @@
+{
+  "bikVersion": "1.0",
+  "id": "local1",
+  "name": "local1",
+  "type": "environment",
+  "variables": {}
+}

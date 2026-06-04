@@ -1,0 +1,12 @@
+{
+  "bikVersion": "1.0",
+  "type": "request",
+  "id": "new-request1",
+  "name": "New Request1",
+  "method": "GET",
+  "url": "https://example.com/",
+  "headers": {},
+  "queryParams": {},
+  "body": null,
+  "variables": {}
+}

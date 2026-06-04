@@ -1,0 +1,12 @@
+{
+  "bikVersion": "1.0",
+  "type": "request",
+  "id": "create-booking",
+  "name": "Create Booking",
+  "method": "GET",
+  "url": "{{baseUrl}}/",
+  "headers": {},
+  "queryParams": {},
+  "body": null,
+  "variables": {}
+}

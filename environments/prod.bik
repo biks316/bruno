@@ -1,0 +1,7 @@
+{
+  "bikVersion": "1.0",
+  "id": "prod",
+  "name": "Prod",
+  "type": "environment",
+  "variables": {}
+}
