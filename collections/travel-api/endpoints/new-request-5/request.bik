@@ -1,7 +1,7 @@
 {
   "bikVersion": "1.0",
   "type": "request",
-  "id": "new-request",
+  "id": "new-request-5",
   "name": "New Request",
   "method": "GET",
   "url": "https://example.com/",
