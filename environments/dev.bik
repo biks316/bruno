@@ -1,7 +1,9 @@
 {
   "bikVersion": "1.0",
+  "type": "environment",
   "id": "dev",
   "name": "Dev",
-  "type": "environment",
-  "variables": {}
+  "variables": {
+    "base_url": "http://facebook.com"
+  }
 }
