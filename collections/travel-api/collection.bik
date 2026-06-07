@@ -1,7 +1,10 @@
 {
   "bikVersion": "1.0",
+  "type": "collection",
   "id": "travel-api",
   "name": "Travel API",
-  "type": "collection",
-  "variables": {}
+  "variables": {
+    "banana": "ss",
+    "key": ""
+  }
 }

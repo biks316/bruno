@@ -1,0 +1,112 @@
+{
+  "bikVersion": "1.0",
+  "type": "flow",
+  "id": "car-api-flow",
+  "name": "car api flow",
+  "nodes": [
+    {
+      "id": "new-request-2",
+      "type": "request",
+      "requestPath": "../endpoints/new-request-2/request.bik",
+      "requestId": "new-request-2",
+      "name": "New Request",
+      "position": {
+        "x": 100.0,
+        "y": 110.0
+      },
+      "lastRun": null
+    },
+    {
+      "id": "new-request-5",
+      "type": "request",
+      "requestPath": "../endpoints/new-request-5/request.bik",
+      "requestId": "new-request-5",
+      "name": "New Request",
+      "position": {
+        "x": 380.0,
+        "y": 110.0
+      },
+      "lastRun": null
+    },
+    {
+      "id": "new-request-4-1780867701596",
+      "type": "request",
+      "requestPath": "../endpoints/new-request-4/request.bik",
+      "requestId": "new-request-4",
+      "name": "New Request",
+      "position": {
+        "x": 660.0,
+        "y": 110.0
+      },
+      "lastRun": null
+    },
+    {
+      "id": "new-request1",
+      "type": "request",
+      "requestPath": "../endpoints/new-request1/request.bik",
+      "requestId": "new-request1",
+      "name": "New Request1",
+      "position": {
+        "x": 940.0,
+        "y": 110.0
+      },
+      "lastRun": null
+    },
+    {
+      "id": "new-request1-1780867704849",
+      "type": "request",
+      "requestPath": "../endpoints/new-request1/request.bik",
+      "requestId": "new-request1",
+      "name": "New Request1",
+      "position": {
+        "x": 1220.0,
+        "y": 110.0
+      },
+      "lastRun": null
+    },
+    {
+      "id": "new-request1-1780867706645",
+      "type": "request",
+      "requestPath": "../endpoints/new-request1/request.bik",
+      "requestId": "new-request1",
+      "name": "New Request1",
+      "position": {
+        "x": 53.0,
+        "y": 217.0
+      },
+      "lastRun": null
+    },
+    {
+      "id": "new-request-4",
+      "type": "request",
+      "requestPath": "../endpoints/new-request-4/request.bik",
+      "requestId": "new-request-4",
+      "name": "New Request",
+      "position": {
+        "x": 1780.0,
+        "y": 110.0
+      },
+      "lastRun": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "new-request-2-to-new-request-4",
+      "source": "new-request-2",
+      "target": "new-request-4",
+      "from": "new-request-2",
+      "to": "new-request-4",
+      "label": "Add mapping",
+      "mappings": []
+    },
+    {
+      "id": "new-request1-1780867704849-to-new-request1-1780867706645",
+      "source": "new-request1-1780867704849",
+      "target": "new-request1-1780867706645",
+      "from": "new-request1-1780867704849",
+      "to": "new-request1-1780867706645",
+      "label": "Add mapping",
+      "mappings": []
+    }
+  ]
+}
