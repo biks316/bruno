@@ -1,7 +1,9 @@
 {
   "bikVersion": "1.0",
+  "type": "environment",
   "id": "local",
   "name": "Local",
-  "type": "environment",
-  "variables": {}
+  "variables": {
+    "base_url": "https://facebook.com"
+  }
 }
