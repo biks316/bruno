@@ -1,0 +1,43 @@
+{
+  "bikVersion": "1.0",
+  "type": "flow",
+  "id": "booking-flow",
+  "name": "Booking Flow",
+  "nodes": [
+    {
+      "id": "new-request",
+      "type": "request",
+      "requestPath": "../endpoints/new-request/request.bik",
+      "requestId": "new-request",
+      "name": "New Request",
+      "position": {
+        "x": -43.077955352171486,
+        "y": 75.44321038940703
+      },
+      "lastRun": null
+    },
+    {
+      "id": "bikram-call",
+      "type": "request",
+      "requestPath": "../endpoints/bikram-call/request.bik",
+      "requestId": "bikram-call",
+      "name": "bikram call",
+      "position": {
+        "x": 329.9254038923303,
+        "y": 74.66805846760164
+      },
+      "lastRun": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "new-request-to-bikram-call",
+      "source": "new-request",
+      "target": "bikram-call",
+      "from": "new-request",
+      "to": "bikram-call",
+      "label": "Add mapping",
+      "mappings": []
+    }
+  ]
+}
