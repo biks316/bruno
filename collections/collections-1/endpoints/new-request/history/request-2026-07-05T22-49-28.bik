@@ -4,7 +4,7 @@
   "id": "new-request",
   "name": "New Request",
   "method": "POST",
-  "url": "https://biks-biks.free.beeceptor.com",
+  "url": "https://example.com/",
   "headers": {},
   "queryParams": {},
   "body": null,
