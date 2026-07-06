@@ -7,8 +7,6 @@
   "url": "{{base_url}}/api/bio",
   "headers": {},
   "queryParams": {},
-  "body": {
-    "userid": "->map"
-  },
+  "body": null,
   "variables": {}
 }
