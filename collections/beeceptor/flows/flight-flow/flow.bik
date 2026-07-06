@@ -2,7 +2,7 @@
   "bikVersion": "1.0",
   "type": "flow",
   "id": "flight-flow",
-  "name": "flight flow",
+  "name": "idk flow",
   "nodes": [
     {
       "id": "todos-copy-data",
@@ -15,24 +15,24 @@
         "y": -183.50255098890517
       },
       "lastRun": {
-        "durationMs": 2,
+        "durationMs": 1,
         "error": null,
         "nodeId": "todos-copy-data",
-        "ranAt": "2026-07-06T17:31:49.433744+00:00",
+        "ranAt": "2026-07-06T17:34:22.362245+00:00",
         "requestId": "todos-copy-data",
-        "responseBody": "{\n  \"id\": 12,\n  \"name\": \"New User\",\n  \"email\": \"new.user@example.com\",\n  \"role\": \"user\"\n}",
+        "responseBody": "[\n  {\n    \"id\": 1,\n    \"name\": \"Ava Johnson\",\n    \"email\": \"ava@example.com\",\n    \"role\": \"admin\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Liam Chen\",\n    \"email\": \"liam@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Mia Patel\",\n    \"email\": \"mia@example.com\",\n    \"role\": \"tester\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 5,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 6,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 7,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 8,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 9,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 10,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 11,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 12,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 13,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 14,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 15,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 16,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 17,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 18,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 19,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 20,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 21,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 22,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 23,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  }\n]",
         "responseHeaders": {
           "access-control-allow-headers": "Content-Type",
           "access-control-allow-methods": "GET,POST,PUT,DELETE,OPTIONS",
           "access-control-allow-origin": "*",
           "connection": "keep-alive",
           "content-type": "application/json",
-          "date": "Mon, 06 Jul 2026 17:31:49 GMT",
+          "date": "Mon, 06 Jul 2026 17:34:22 GMT",
           "keep-alive": "timeout=5",
           "transfer-encoding": "chunked"
         },
         "status": "success",
-        "statusCode": 201
+        "statusCode": 200
       }
     },
     {
@@ -46,24 +46,24 @@
         "y": 110.0
       },
       "lastRun": {
-        "durationMs": 1,
+        "durationMs": 3,
         "error": null,
         "nodeId": "todos",
-        "ranAt": "2026-07-06T17:31:49.456581+00:00",
+        "ranAt": "2026-07-06T17:34:22.401165+00:00",
         "requestId": "todos",
-        "responseBody": "[\n  {\n    \"id\": 1,\n    \"name\": \"Ava Johnson\",\n    \"email\": \"ava@example.com\",\n    \"role\": \"admin\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Liam Chen\",\n    \"email\": \"liam@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Mia Patel\",\n    \"email\": \"mia@example.com\",\n    \"role\": \"tester\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 5,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 6,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 7,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 8,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 9,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 10,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 11,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  },\n  {\n    \"id\": 12,\n    \"name\": \"New User\",\n    \"email\": \"new.user@example.com\",\n    \"role\": \"user\"\n  }\n]",
+        "responseBody": "{\n  \"id\": 24,\n  \"name\": \"New User\",\n  \"email\": \"new.user@example.com\",\n  \"role\": \"user\"\n}",
         "responseHeaders": {
           "access-control-allow-headers": "Content-Type",
           "access-control-allow-methods": "GET,POST,PUT,DELETE,OPTIONS",
           "access-control-allow-origin": "*",
           "connection": "keep-alive",
           "content-type": "application/json",
-          "date": "Mon, 06 Jul 2026 17:31:49 GMT",
+          "date": "Mon, 06 Jul 2026 17:34:22 GMT",
           "keep-alive": "timeout=5",
           "transfer-encoding": "chunked"
         },
         "status": "success",
-        "statusCode": 200
+        "statusCode": 201
       }
     }
   ],
@@ -74,8 +74,22 @@
       "target": "todos",
       "from": "todos-copy-data",
       "to": "todos",
-      "label": "Add mapping",
-      "mappings": []
+      "label": "name → body.name",
+      "mappings": [
+        {
+          "source": "",
+          "target": "",
+          "transform": "",
+          "sourcePath": "$.response.body.1.name",
+          "sourceLabel": "name",
+          "targetType": "body",
+          "targetKey": "name",
+          "targetPath": "$.request.body.name",
+          "targetVariable": "",
+          "transformType": "raw",
+          "template": "{{value}}"
+        }
+      ]
     }
   ]
 }

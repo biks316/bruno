@@ -1,8 +1,8 @@
 {
   "bikVersion": "1.0",
   "type": "request",
-  "id": "todos",
-  "name": "create new users",
+  "id": "new-request",
+  "name": "New Request",
   "method": "POST",
   "url": "{{base_url}}/api/users",
   "headers": {},

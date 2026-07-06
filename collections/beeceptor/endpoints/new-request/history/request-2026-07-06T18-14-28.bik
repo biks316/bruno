@@ -1,10 +1,10 @@
 {
   "bikVersion": "1.0",
   "type": "request",
-  "id": "todos-copy-data",
-  "name": "get user data",
+  "id": "new-request",
+  "name": "New Request",
   "method": "GET",
-  "url": "{{base_url}}/api/users",
+  "url": "",
   "headers": {},
   "queryParams": {},
   "body": null,
