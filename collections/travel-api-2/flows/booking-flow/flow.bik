@@ -36,8 +36,22 @@
       "target": "new-request23qwd",
       "from": "new-request12",
       "to": "new-request23qwd",
-      "label": "Add mapping",
-      "mappings": []
+      "label": "id → body.userid",
+      "mappings": [
+        {
+          "source": "",
+          "target": "",
+          "transform": "",
+          "sourcePath": "$.response.body.0.id",
+          "sourceLabel": "id",
+          "targetType": "body",
+          "targetKey": "userid",
+          "targetPath": "$.request.body.userid",
+          "targetVariable": "",
+          "transformType": "raw",
+          "template": "{{value}}"
+        }
+      ]
     }
   ]
 }

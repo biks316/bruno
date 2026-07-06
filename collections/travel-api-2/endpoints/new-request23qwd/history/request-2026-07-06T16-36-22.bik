@@ -6,9 +6,7 @@
   "method": "POST",
   "url": "{{base_url}}/api/bio",
   "headers": {},
-  "queryParams": {
-    "name": "\"->map\""
-  },
+  "queryParams": {},
   "body": {
     "userid": "->map"
   },
