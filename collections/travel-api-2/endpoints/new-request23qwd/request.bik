@@ -3,12 +3,10 @@
   "type": "request",
   "id": "new-request23qwd",
   "name": "New Request23qwd",
-  "method": "POST",
+  "method": "GET",
   "url": "{{base_url}}",
   "headers": {},
   "queryParams": {},
-  "body": {
-    "userid": "->map"
-  },
+  "body": null,
   "variables": {}
 }
