@@ -11,10 +11,20 @@
       "requestId": "todos-copy-data",
       "name": "Todos Copy data",
       "position": {
-        "x": -15.110068086255964,
-        "y": -49.92680922233249
+        "x": -179.74558110394952,
+        "y": -134.52660905465132
       },
-      "lastRun": null
+      "lastRun": {
+        "durationMs": null,
+        "error": "Resolved URL must start with http:// or https://. Current value resolved to '/data'.",
+        "nodeId": "todos-copy-data",
+        "ranAt": "2026-07-06T03:43:02.728Z",
+        "requestId": "todos-copy-data",
+        "responseBody": "",
+        "responseHeaders": {},
+        "status": "failed",
+        "statusCode": null
+      }
     },
     {
       "id": "todos",
@@ -23,8 +33,8 @@
       "requestId": "todos",
       "name": "Todos",
       "position": {
-        "x": 1070.9386511086432,
-        "y": -32.457114247903554
+        "x": 931.4540781943806,
+        "y": -9.586996284299389
       },
       "lastRun": null
     }

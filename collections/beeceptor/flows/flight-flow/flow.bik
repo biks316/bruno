@@ -11,8 +11,8 @@
       "requestId": "todos-copy-data",
       "name": "Todos Copy data",
       "position": {
-        "x": 36.09703688653523,
-        "y": 111.86461173447988
+        "x": 100.0,
+        "y": 110.0
       },
       "lastRun": {
         "durationMs": null,
@@ -33,8 +33,8 @@
       "requestId": "todos",
       "name": "Todos",
       "position": {
-        "x": 577.9150378173863,
-        "y": 339.79527276828173
+        "x": 420.0,
+        "y": 110.0
       },
       "lastRun": null
     }
