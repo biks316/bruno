@@ -3,10 +3,12 @@
   "type": "request",
   "id": "new-request12",
   "name": "get all users",
-  "method": "GET",
+  "method": "POST",
   "url": "{{base_url}}/api/users",
   "headers": {},
   "queryParams": {},
-  "body": null,
+  "body": {
+    "id": "10012"
+  },
   "variables": {}
 }
