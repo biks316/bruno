@@ -1,0 +1,43 @@
+{
+  "bikVersion": "1.0",
+  "type": "flow",
+  "id": "flight-flow",
+  "name": "flight flow",
+  "nodes": [
+    {
+      "id": "todos",
+      "type": "request",
+      "requestPath": "../endpoints/todos/request.bik",
+      "requestId": "todos",
+      "name": "Todos",
+      "position": {
+        "x": -15.141343706109538,
+        "y": 125.06357257285806
+      },
+      "lastRun": null
+    },
+    {
+      "id": "todos-copy-data",
+      "type": "request",
+      "requestPath": "../endpoints/todos-copy-data/request.bik",
+      "requestId": "todos-copy-data",
+      "name": "Todos Copy data",
+      "position": {
+        "x": 608.7513029977176,
+        "y": 76.01035403133771
+      },
+      "lastRun": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "todos-to-todos-copy-data",
+      "source": "todos",
+      "target": "todos-copy-data",
+      "from": "todos",
+      "to": "todos-copy-data",
+      "label": "Add mapping",
+      "mappings": []
+    }
+  ]
+}
