@@ -4,7 +4,7 @@
   "id": "new-request23qwd",
   "name": "New Request23qwd",
   "method": "POST",
-  "url": "{{base_url}}/api/bio",
+  "url": "{{base_url}}/api/users",
   "headers": {},
   "queryParams": {},
   "body": null,
