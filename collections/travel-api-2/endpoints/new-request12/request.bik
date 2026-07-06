@@ -1,10 +1,10 @@
 {
   "bikVersion": "1.0",
   "type": "request",
-  "id": "create-booking",
-  "name": "Create Booking",
+  "id": "new-request12",
+  "name": "New Request12",
   "method": "GET",
-  "url": "https://facebook.com",
+  "url": "",
   "headers": {},
   "queryParams": {},
   "body": null,

@@ -15,15 +15,21 @@
         "y": 110.0
       },
       "lastRun": {
-        "durationMs": null,
-        "error": "Resolved URL must start with http:// or https://. Current value resolved to '/data'.",
+        "durationMs": 411,
+        "error": null,
         "nodeId": "todos-copy-data",
-        "ranAt": "2026-07-06T03:53:31.151Z",
+        "ranAt": "2026-07-06T15:12:24.285093+00:00",
         "requestId": "todos-copy-data",
-        "responseBody": "",
-        "responseHeaders": {},
+        "responseBody": "429 - Too Many Requests. Refer: https://beeceptor.com/pricing/",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "alt-svc": "h3=\":443\"; ma=2592000",
+          "content-length": "62",
+          "content-type": "text/plain; charset=utf-8",
+          "date": "Mon, 06 Jul 2026 15:12:24 GMT"
+        },
         "status": "failed",
-        "statusCode": null
+        "statusCode": 429
       }
     },
     {

@@ -11,8 +11,8 @@
       "requestId": "todos-copy-data",
       "name": "Todos Copy data",
       "position": {
-        "x": -179.74558110394952,
-        "y": -134.52660905465132
+        "x": -87.46761971995547,
+        "y": -271.7905710141945
       },
       "lastRun": {
         "durationMs": 1214,
@@ -39,8 +39,8 @@
       "requestId": "todos",
       "name": "Todos",
       "position": {
-        "x": 328.8547607853685,
-        "y": -13.980375379046151
+        "x": 281.5850754598721,
+        "y": -108.48590562594777
       },
       "lastRun": {
         "durationMs": 314,
@@ -69,8 +69,20 @@
       "requestId": "helllo",
       "name": "helllo",
       "position": {
-        "x": 855.907267388502,
-        "y": -74.74265006749573
+        "x": 680.3744427589282,
+        "y": -119.74255115381168
+      },
+      "lastRun": null
+    },
+    {
+      "id": "todos-copy-data-1783350661851",
+      "type": "request",
+      "requestPath": "../endpoints/todos-copy-data/request.bik",
+      "requestId": "todos-copy-data",
+      "name": "Todos Copy data",
+      "position": {
+        "x": 1214.1632042703088,
+        "y": -40.97824198460863
       },
       "lastRun": null
     }
@@ -91,6 +103,15 @@
       "target": "helllo",
       "from": "todos",
       "to": "helllo",
+      "label": "Add mapping",
+      "mappings": []
+    },
+    {
+      "id": "helllo-to-todos-copy-data-1783350661851",
+      "source": "helllo",
+      "target": "todos-copy-data-1783350661851",
+      "from": "helllo",
+      "to": "todos-copy-data-1783350661851",
       "label": "Add mapping",
       "mappings": []
     }
