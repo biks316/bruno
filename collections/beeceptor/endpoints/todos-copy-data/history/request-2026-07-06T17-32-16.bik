@@ -3,7 +3,7 @@
   "type": "request",
   "id": "todos-copy-data",
   "name": "Todos Copy data",
-  "method": "GET",
+  "method": "POST",
   "url": "{{base_url}}/api/users",
   "headers": {},
   "queryParams": {},
