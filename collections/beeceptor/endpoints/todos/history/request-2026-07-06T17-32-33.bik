@@ -3,7 +3,7 @@
   "type": "request",
   "id": "todos",
   "name": "Todos",
-  "method": "POST",
+  "method": "GET",
   "url": "{{base_url}}/api/users",
   "headers": {},
   "queryParams": {},
