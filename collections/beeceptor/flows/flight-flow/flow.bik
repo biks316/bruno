@@ -11,25 +11,28 @@
       "requestId": "todos-copy-data",
       "name": "Todos Copy data",
       "position": {
-        "x": 100.0,
-        "y": 110.0
+        "x": -133.22971335704767,
+        "y": -183.50255098890517
       },
       "lastRun": {
-        "durationMs": 411,
+        "durationMs": 2,
         "error": null,
         "nodeId": "todos-copy-data",
-        "ranAt": "2026-07-06T15:12:24.285093+00:00",
+        "ranAt": "2026-07-06T17:31:18.086189+00:00",
         "requestId": "todos-copy-data",
-        "responseBody": "429 - Too Many Requests. Refer: https://beeceptor.com/pricing/",
+        "responseBody": "{\n  \"error\": \"Endpoint not found\"\n}",
         "responseHeaders": {
+          "access-control-allow-headers": "Content-Type",
+          "access-control-allow-methods": "GET,POST,PUT,DELETE,OPTIONS",
           "access-control-allow-origin": "*",
-          "alt-svc": "h3=\":443\"; ma=2592000",
-          "content-length": "62",
-          "content-type": "text/plain; charset=utf-8",
-          "date": "Mon, 06 Jul 2026 15:12:24 GMT"
+          "connection": "keep-alive",
+          "content-type": "application/json",
+          "date": "Mon, 06 Jul 2026 17:31:18 GMT",
+          "keep-alive": "timeout=5",
+          "transfer-encoding": "chunked"
         },
         "status": "failed",
-        "statusCode": 429
+        "statusCode": 404
       }
     },
     {

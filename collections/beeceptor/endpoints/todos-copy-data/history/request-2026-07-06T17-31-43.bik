@@ -4,7 +4,7 @@
   "id": "todos-copy-data",
   "name": "Todos Copy data",
   "method": "POST",
-  "url": "{{base_url}}/api/users",
+  "url": "{{base_url}}/data",
   "headers": {},
   "queryParams": {},
   "body": null,
