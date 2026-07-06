@@ -8,7 +8,7 @@
   "headers": {},
   "queryParams": {},
   "body": {
-    "userid": "10012"
+    "id": "10012"
   },
   "variables": {}
 }
