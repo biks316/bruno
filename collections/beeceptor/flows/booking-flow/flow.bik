@@ -1,8 +1,8 @@
 {
   "bikVersion": "1.0",
   "type": "flow",
-  "id": "flight-flow",
-  "name": "flight flow",
+  "id": "booking-flow",
+  "name": "Booking Flow",
   "nodes": [
     {
       "id": "todos-copy-data",
@@ -11,20 +11,10 @@
       "requestId": "todos-copy-data",
       "name": "Todos Copy data",
       "position": {
-        "x": 36.09703688653523,
-        "y": 111.86461173447988
+        "x": -15.110068086255964,
+        "y": -49.92680922233249
       },
-      "lastRun": {
-        "durationMs": null,
-        "error": "Resolved URL must start with http:// or https://. Current value resolved to '/data'.",
-        "nodeId": "todos-copy-data",
-        "ranAt": "2026-07-06T03:25:07.437Z",
-        "requestId": "todos-copy-data",
-        "responseBody": "",
-        "responseHeaders": {},
-        "status": "failed",
-        "statusCode": null
-      }
+      "lastRun": null
     },
     {
       "id": "todos",
@@ -33,8 +23,8 @@
       "requestId": "todos",
       "name": "Todos",
       "position": {
-        "x": 577.9150378173863,
-        "y": 339.79527276828173
+        "x": 1070.9386511086432,
+        "y": -32.457114247903554
       },
       "lastRun": null
     }
