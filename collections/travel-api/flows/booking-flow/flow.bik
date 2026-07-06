@@ -1,0 +1,43 @@
+{
+  "bikVersion": "1.0",
+  "type": "flow",
+  "id": "booking-flow",
+  "name": "Booking Flow",
+  "nodes": [
+    {
+      "id": "new-request-2",
+      "type": "request",
+      "requestPath": "../endpoints/new-request-2/request.bik",
+      "requestId": "new-request-2",
+      "name": "New Request",
+      "position": {
+        "x": 100.0,
+        "y": 110.0
+      },
+      "lastRun": null
+    },
+    {
+      "id": "new-request-3",
+      "type": "request",
+      "requestPath": "../endpoints/new-request-3/request.bik",
+      "requestId": "new-request-3",
+      "name": "New Request",
+      "position": {
+        "x": 886.2472568469101,
+        "y": 110.00000822945924
+      },
+      "lastRun": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "new-request-2-to-new-request-3",
+      "source": "new-request-2",
+      "target": "new-request-3",
+      "from": "new-request-2",
+      "to": "new-request-3",
+      "label": "Add mapping",
+      "mappings": []
+    }
+  ]
+}

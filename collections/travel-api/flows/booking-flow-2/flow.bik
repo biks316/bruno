@@ -1,0 +1,87 @@
+{
+  "bikVersion": "1.0",
+  "type": "flow",
+  "id": "booking-flow-2",
+  "name": "Booking Flow",
+  "nodes": [
+    {
+      "id": "new-request-5",
+      "type": "request",
+      "requestPath": "../endpoints/new-request-5/request.bik",
+      "requestId": "new-request-5",
+      "name": "New Request",
+      "position": {
+        "x": 100.0,
+        "y": 110.0
+      },
+      "lastRun": {
+        "durationMs": 90,
+        "error": null,
+        "nodeId": "new-request-5",
+        "ranAt": "2026-07-06T00:47:34.110291+00:00",
+        "requestId": "new-request-5",
+        "responseBody": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style></head><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://iana.org/domains/example\">Learn more</a></p></div></body></html>\n",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "age": "8169",
+          "allow": "GET, HEAD",
+          "cf-cache-status": "HIT",
+          "cf-ray": "a16a994e3dfb5e72-EWR",
+          "connection": "keep-alive",
+          "content-type": "text/html",
+          "date": "Mon, 06 Jul 2026 00:47:34 GMT",
+          "last-modified": "Wed, 01 Jul 2026 17:52:37 GMT",
+          "server": "cloudflare",
+          "transfer-encoding": "chunked"
+        },
+        "status": "success",
+        "statusCode": 200
+      }
+    },
+    {
+      "id": "new-request-4",
+      "type": "request",
+      "requestPath": "../endpoints/new-request-4/request.bik",
+      "requestId": "new-request-4",
+      "name": "New Request",
+      "position": {
+        "x": 727.6854590941011,
+        "y": 110.00000822945928
+      },
+      "lastRun": {
+        "durationMs": 67,
+        "error": null,
+        "nodeId": "new-request-4",
+        "ranAt": "2026-07-06T00:47:34.211469+00:00",
+        "requestId": "new-request-4",
+        "responseBody": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style></head><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://iana.org/domains/example\">Learn more</a></p></div></body></html>\n",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "age": "8169",
+          "allow": "GET, HEAD",
+          "cf-cache-status": "HIT",
+          "cf-ray": "a16a994edb398186-EWR",
+          "connection": "keep-alive",
+          "content-type": "text/html",
+          "date": "Mon, 06 Jul 2026 00:47:34 GMT",
+          "last-modified": "Wed, 01 Jul 2026 17:52:37 GMT",
+          "server": "cloudflare",
+          "transfer-encoding": "chunked"
+        },
+        "status": "success",
+        "statusCode": 200
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "new-request-5-to-new-request-4",
+      "source": "new-request-5",
+      "target": "new-request-4",
+      "from": "new-request-5",
+      "to": "new-request-4",
+      "label": "Add mapping",
+      "mappings": []
+    }
+  ]
+}

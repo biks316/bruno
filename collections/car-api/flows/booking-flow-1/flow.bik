@@ -1,0 +1,21 @@
+{
+  "bikVersion": "1.0",
+  "type": "flow",
+  "id": "booking-flow-1",
+  "name": "Booking Flow 1",
+  "nodes": [
+    {
+      "id": "create-booking-2",
+      "type": "request",
+      "requestPath": "../endpoints/create-booking-2/request.bik",
+      "requestId": "create-booking-2",
+      "name": "Create Booking",
+      "position": {
+        "x": 1123.5722389020398,
+        "y": 836.7185129515123
+      },
+      "lastRun": null
+    }
+  ],
+  "edges": []
+}

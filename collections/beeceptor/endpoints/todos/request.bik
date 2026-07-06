@@ -1,0 +1,12 @@
+{
+  "bikVersion": "1.0",
+  "type": "request",
+  "id": "todos",
+  "name": "Todos",
+  "method": "GET",
+  "url": "https://biks-biks.free.beeceptor.com/todos",
+  "headers": {},
+  "queryParams": {},
+  "body": null,
+  "variables": {}
+}
