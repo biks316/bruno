@@ -4,6 +4,6 @@
   "id": "local",
   "name": "Local",
   "variables": {
-    "base_url": "http://facebook.com"
+    "base_url": "http://localhost:8082"
   }
 }
