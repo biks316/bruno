@@ -7,8 +7,6 @@
   "url": "{{base_url}}/api/users",
   "headers": {},
   "queryParams": {},
-  "body": {
-    "name": "->map"
-  },
+  "body": null,
   "variables": {}
 }
