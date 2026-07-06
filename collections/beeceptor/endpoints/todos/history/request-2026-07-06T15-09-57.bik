@@ -4,7 +4,7 @@
   "id": "todos",
   "name": "Todos",
   "method": "GET",
-  "url": "{{base_url}}/api/users",
+  "url": "{{base_url}}/health",
   "headers": {},
   "queryParams": {},
   "body": null,
