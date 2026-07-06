@@ -3,7 +3,7 @@
   "type": "request",
   "id": "new-request12",
   "name": "New Request12",
-  "method": "POST",
+  "method": "GET",
   "url": "",
   "headers": {},
   "queryParams": {},
