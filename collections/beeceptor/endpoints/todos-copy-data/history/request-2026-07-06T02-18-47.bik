@@ -1,0 +1,12 @@
+{
+  "bikVersion": "1.0",
+  "type": "request",
+  "id": "todos-copy-data",
+  "name": "Todos Copy data",
+  "method": "GET",
+  "url": "{{base_url}}/todos",
+  "headers": {},
+  "queryParams": {},
+  "body": null,
+  "variables": {}
+}
