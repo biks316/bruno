@@ -3,7 +3,7 @@
   "type": "request",
   "id": "new-request23qwd",
   "name": "New Request23qwd",
-  "method": "POST",
+  "method": "GET",
   "url": "{{base_url}}/api/users",
   "headers": {},
   "queryParams": {},
