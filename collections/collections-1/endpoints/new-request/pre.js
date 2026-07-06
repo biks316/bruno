@@ -1,1 +1,1 @@
-console.log("hello")
+ctx.set("id", crypto.randomUUID());const token = ctx.get("token");console.log("hello")
