@@ -15,15 +15,21 @@
         "y": -134.52660905465132
       },
       "lastRun": {
-        "durationMs": null,
-        "error": "Resolved URL must start with http:// or https://. Current value resolved to '/data'.",
+        "durationMs": 1214,
+        "error": null,
         "nodeId": "todos-copy-data",
-        "ranAt": "2026-07-06T03:43:02.728Z",
+        "ranAt": "2026-07-06T13:41:30.373774+00:00",
         "requestId": "todos-copy-data",
-        "responseBody": "",
-        "responseHeaders": {},
+        "responseBody": "429 - Too Many Requests. Refer: https://beeceptor.com/pricing/",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "alt-svc": "h3=\":443\"; ma=2592000",
+          "content-length": "62",
+          "content-type": "text/plain; charset=utf-8",
+          "date": "Mon, 06 Jul 2026 13:41:30 GMT"
+        },
         "status": "failed",
-        "statusCode": null
+        "statusCode": 429
       }
     },
     {
@@ -33,8 +39,38 @@
       "requestId": "todos",
       "name": "Todos",
       "position": {
-        "x": 931.4540781943806,
-        "y": -9.586996284299389
+        "x": 328.8547607853685,
+        "y": -13.980375379046151
+      },
+      "lastRun": {
+        "durationMs": 314,
+        "error": null,
+        "nodeId": "todos",
+        "ranAt": "2026-07-06T13:41:13.317692+00:00",
+        "requestId": "todos",
+        "responseBody": "[\n  {\n    \"id\": 1,\n    \"title\": \"Create an endpoint at Beeceptor.\",\n    \"completed\": true\n  },\n  {\n    \"id\": 2,\n    \"title\": \"Send a request to your new Beeceptor endpoint.\",\n    \"completed\": true\n  },\n  {\n    \"id\": 3,\n    \"title\": \"Create a mocking rule to send dummy data.\",\n    \"completed\": false\n  },\n  {\n    \"id\": 4,\n    \"title\": \"Try out a failure response by sending 500 HTTP status code.\",\n    \"completed\": false\n  },\n  {\n    \"id\": 5,\n    \"title\": \"Use the proxy feature to send a request to a real API. Intercept traffic using Beeceptor.\",\n    \"completed\": false\n  }\n]",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "alt-svc": "h3=\":443\"; ma=2592000",
+          "content-length": "577",
+          "content-type": "application/json",
+          "date": "Mon, 06 Jul 2026 13:41:13 GMT",
+          "vary": "Accept-Encoding",
+          "x-beeceptor-rule-id": "defaultget"
+        },
+        "status": "success",
+        "statusCode": 200
+      }
+    },
+    {
+      "id": "helllo",
+      "type": "request",
+      "requestPath": "../endpoints/helllo/request.bik",
+      "requestId": "helllo",
+      "name": "helllo",
+      "position": {
+        "x": 855.907267388502,
+        "y": -74.74265006749573
       },
       "lastRun": null
     }
@@ -46,6 +82,15 @@
       "target": "todos",
       "from": "todos-copy-data",
       "to": "todos",
+      "label": "Add mapping",
+      "mappings": []
+    },
+    {
+      "id": "todos-to-helllo",
+      "source": "todos",
+      "target": "helllo",
+      "from": "todos",
+      "to": "helllo",
       "label": "Add mapping",
       "mappings": []
     }
