@@ -4,7 +4,7 @@
   "id": "new-request23qwd",
   "name": "New Request23qwd",
   "method": "GET",
-  "url": "{{base_url}}/api/users",
+  "url": "{{base_url}}",
   "headers": {},
   "queryParams": {},
   "body": null,
