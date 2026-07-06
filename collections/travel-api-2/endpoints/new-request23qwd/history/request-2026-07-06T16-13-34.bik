@@ -7,8 +7,6 @@
   "url": "{{base_url}}",
   "headers": {},
   "queryParams": {},
-  "body": {
-    "id": "10012"
-  },
+  "body": null,
   "variables": {}
 }
