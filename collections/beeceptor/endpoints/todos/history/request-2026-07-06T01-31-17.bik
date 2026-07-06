@@ -4,7 +4,7 @@
   "id": "todos",
   "name": "Todos",
   "method": "GET",
-  "url": "{{base_url}}/todos",
+  "url": "https://biks-biks.free.beeceptor.com/todos",
   "headers": {},
   "queryParams": {},
   "body": null,

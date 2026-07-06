@@ -4,6 +4,6 @@
   "id": "dev",
   "name": "Dev",
   "variables": {
-    "base_url": "http://facebook.com"
+    "base_url": "https://biks-biks.free.beeceptor.com"
   }
 }

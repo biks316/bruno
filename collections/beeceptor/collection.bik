@@ -1,7 +1,7 @@
 {
   "bikVersion": "1.0",
+  "type": "collection",
   "id": "beeceptor",
   "name": "BEECEPTOR",
-  "type": "collection",
   "variables": {}
 }

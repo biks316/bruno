@@ -4,8 +4,8 @@
   "id": "globals",
   "name": "Globals",
   "variables": {
-    "banana": "12345",
     "facebook": "https://facebook.com",
-    "apple": "123"
+    "apple": "123",
+    "banana": "12345"
   }
 }
