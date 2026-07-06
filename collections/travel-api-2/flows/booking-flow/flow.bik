@@ -36,7 +36,7 @@
       "target": "new-request23qwd",
       "from": "new-request12",
       "to": "new-request23qwd",
-      "label": "id → body.userid",
+      "label": "2 mappings",
       "mappings": [
         {
           "source": "",
@@ -47,6 +47,19 @@
           "targetType": "body",
           "targetKey": "userid",
           "targetPath": "$.request.body.userid",
+          "targetVariable": "",
+          "transformType": "raw",
+          "template": "{{value}}"
+        },
+        {
+          "source": "",
+          "target": "",
+          "transform": "",
+          "sourcePath": "$.response.body.0.name",
+          "sourceLabel": "name",
+          "targetType": "body",
+          "targetKey": "name",
+          "targetPath": "$.request.body.name",
           "targetVariable": "",
           "transformType": "raw",
           "template": "{{value}}"
